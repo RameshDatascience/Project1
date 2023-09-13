@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Ensure the file read/write operations use 'openpyxl' engine
-excel_file = "donations.xlsx"
+excel_file = ".\donations.xlsx"
 
 def save_data(name, phone_number, donation_amount, paid_status, reminder_date):
     try:
